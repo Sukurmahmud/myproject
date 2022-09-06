@@ -1,0 +1,57 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+body a{
+	text-decoration: none;
+}
+
+
+.mybook{
+	float: left;
+
+
+	}
+	.images_item img:hover{
+	z-index: 0.4;
+	cursor: pointer;
+	background: gray;
+	}
+	.images_item img{
+	padding: 10px 10px;
+	}
+	.book_title span {
+	    font-size: 15px;
+	    margin-left: 9px;
+	    font-family: Verdana, Arial, Tahoma, serif;
+	    font-weight: 600;
+	}
+
+
+	/*log in file */
+
+.login_people h1{
+	color: red;
+	font-size: 20px;
+}
+.l_submit_button input{
+		cursor: pointer;
+    width: 10%;
+    font-size: 25px;
+    padding: 0px 0px;
+    background: #fbf1f1;
+    color: #075cdd;
+    /* float: left; */
+    margin-left: 350px;
+}
+.admin_login a{
+	  color: #0043d9;
+    text-decoration: none;
+    font-size: 20px;
+}
+.admin_login a:hover{
+	color: red;
+}
+.l_submit_button input:hover{
+	color: red;
+}
